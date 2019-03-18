@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import Button from '.';
 
-storiesOf('Loader', module)
+storiesOf('Button', module)
   .add('Basic', () => <Button caption='Button text' />)
   .add('Disabled', () => (
   <>
