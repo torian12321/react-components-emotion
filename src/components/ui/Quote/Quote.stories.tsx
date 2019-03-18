@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import Quote from '.';
 
-storiesOf('LoQuoteader', module)
+storiesOf('Quote', module)
   .add('Basic', () => <Quote caption='Lorem ipsum' />)
   .add('author', () => (
   <>
