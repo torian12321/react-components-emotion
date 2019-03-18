@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Container, Avatar, Button, Divider, Message, Note, Loader } from "./components/ui";
+import { Row, Container, Button } from "./components/ui";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -13,26 +13,9 @@ class App extends React.Component {
 abc
             </Row>
           </Container>
-          <Note caption='bla bla bla' />
-          <Note caption='bla bla bla' type='info'/>
-          <Note caption='bla bla bla' type='success'/>
-          <Note caption='bla bla bla' type='error'/>
-          <Note caption='bla bla bla' type='warning'/>
           <Button caption="blablabla" />
           <img src={logo} className="App-logo" alt="logo" />
           <div>
-            <Avatar />
-            <Divider />
-            <Loader />
-            <Loader size='xs' />
-            <Loader size='sm' />
-            <Loader size='md' />
-            <Loader size='lg' />
-            <Message caption='bla bla bla' />
-            <Message caption='bla bla bla' type='info'/>
-            <Message caption='bla bla bla' type='success'/>
-            <Message caption='bla bla bla' type='error'/>
-            <Message caption='bla bla bla' type='warning'/>
             Edit <code>src/App.js</code> and save to reload.
           </div>
           <a
