@@ -3,11 +3,7 @@
     "allowJs": true,
     "forceConsistentCasingInFileNames": true,
     "jsx": "preserve",
-    "lib": [
-      "es6",
-      "es7",
-      "dom"
-    ],
+    "lib": ["es6", "es7", "dom"],
     "module": "esnext",
     "moduleResolution": "node",
     "noImplicitAny": false,
@@ -42,7 +38,5 @@
     "webpack",
     "__mocks__"
   ],
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }

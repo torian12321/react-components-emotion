@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Container, Button } from "./components/ui";
+import Test from './components/hoc/test';
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -10,7 +11,8 @@ class App extends React.Component {
         <header className="App-header">
         <Container>
           <Row>
-abc
+            <Test />
+
             </Row>
           </Container>
           <Button caption="blablabla" />

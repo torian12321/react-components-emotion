@@ -4,11 +4,11 @@ import { jsx } from "@emotion/core";
 // import { Icon } from 'framework/components/ui/Icon';
 // import { Text } from 'framework/components/ui/Text';
 import { IMessage } from "./Message.interfaces";
-import { styles,  stylesTypes} from "./Message.styles";
+import { styles, stylesTypes } from "./Message.styles";
 const clx = "message";
 
 const Message = React.memo((props: IMessage) => {
-  const { caption, className, type = "info" /*, showLabel = true */} = props;
+  const { caption, className, type = "info" /*, showLabel = true */ } = props;
 
   // const labels = {
   //   info: "components.message.labels.info",
@@ -18,7 +18,9 @@ const Message = React.memo((props: IMessage) => {
   // };
 
   return caption ? (
-    <div css={[styles, stylesTypes[type]]} className={className}
+    <div
+      css={[styles, stylesTypes[type]]}
+      className={className}
       // className={classnames(
       //   clx,
       //   type && `${clx}--${type}`,

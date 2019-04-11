@@ -1,4 +1,4 @@
-export type IMessageTypes = 'info' | 'success' | 'warning' | 'error';
+export type IMessageTypes = "info" | "success" | "warning" | "error";
 
 export interface IMessage {
   caption: string | string[];
